@@ -13,8 +13,8 @@ end
 SimpleCov.command_name 'Unit Tests'
 SimpleCov.start 'rails' do
   add_filter 'lib/tasks'
+  add_filter 'lib/generators'
   add_filter 'lib/occams/engine'
-  add_filter 'lib/occams/generators'
   add_filter 'lib/occams/version'
 end
 

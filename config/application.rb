@@ -26,11 +26,11 @@ module Occams
       # config.active_record.allow_deprecated_singular_associations_name = true
       # config.active_support.raise_on_invalid_cache_expiration_time = false
       # config.active_record.sqlite3_adapter_strict_strings_by_default = false
-      # config.active_support.cache_format_version = 7.0
+      config.active_support.cache_format_version = 7.0
       # Please, add to the `ignore` list any other `lib` subdirectories that do
       # not contain `.rb` files, or that should not be reloaded or eager loaded.
       # Common ones are `templates`, `generators`, or `middleware`, for example.
-      config.autoload_lib(ignore: %w[tasks])
+      config.autoload_lib(ignore: %w[generators])
     end
 
     # Making sure we don't load our dev routes as part of the engine
