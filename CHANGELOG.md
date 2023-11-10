@@ -1,8 +1,8 @@
 # Changelog
 
-## v1.1.0 - xx October 2023
+## v1.0.8 - 10 November 2023
 
-- Added Rails 7.1 compatibility
+- Prepped for Rails 7.1 compatibility
 
 ## v1.0.7.3 - 7 October 2023
 

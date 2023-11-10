@@ -21,12 +21,12 @@ module Occams
       config.active_record.before_committed_on_all_records = false
       config.active_record.commit_transaction_on_non_local_return = false
       config.active_record.run_after_transaction_callbacks_in_order_defined = false
-      #
+      config.active_support.message_serializer = :json
       # config.active_record.run_commit_callbacks_on_first_saved_instances_in_transaction = true
       # config.active_record.allow_deprecated_singular_associations_name = true
       # config.active_support.raise_on_invalid_cache_expiration_time = false
       # config.active_record.sqlite3_adapter_strict_strings_by_default = false
-      config.active_support.cache_format_version = 7.0
+      # config.active_support.cache_format_version = 7.0
       # Please, add to the `ignore` list any other `lib` subdirectories that do
       # not contain `.rb` files, or that should not be reloaded or eager loaded.
       # Common ones are `templates`, `generators`, or `middleware`, for example.
