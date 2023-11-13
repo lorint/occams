@@ -14,11 +14,8 @@ class AdminRoutesTest < ActionDispatch::IntegrationTest
   def test_cms_admin_routes
     assert_routing '/admin', controller: 'occams/admin/cms/base', action: 'jump'
     assert_routing '/auth/identity/callback',
-      :controller => 'occams/cms/content',
-      :action => 'show',
-      cms_path: 'auth/identity/callback'
-
-
+                   controller: 'occams/cms/content',
+                   action: 'show',
+                   cms_path: 'auth/identity/callback'
   end
-
 end
