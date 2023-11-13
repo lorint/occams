@@ -2,7 +2,12 @@
 
 ## v1.0.8 - 10 November 2023
 
-- Prepped for Rails 7.1 compatibility
+- Updated configs, et al. in prep for Rails 7.1 compatibility
+- Added explicit coder for serialize commands
+- Added ActiveRecord Adapter (database) info to admin footer
+- Added commented defaults for MySQL and Postgres to database.yml
+- Updated documentation
+- Refactored lib files for better test coverage awareness
 
 ## v1.0.7.3 - 7 October 2023
 
