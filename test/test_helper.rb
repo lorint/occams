@@ -15,7 +15,7 @@ SimpleCov.start 'rails' do
   add_filter 'lib/tasks'
   add_filter 'lib/generators'
   add_filter 'lib/occams/engine'
-  # add_filter 'lib/occams/routes'
+  add_filter 'lib/occams/routes' # TODO: add comprehensive tests for routes
   add_filter 'lib/occams/version'
 end
 

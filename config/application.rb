@@ -22,7 +22,7 @@ module Occams
       config.active_record.commit_transaction_on_non_local_return = false
       config.active_record.run_after_transaction_callbacks_in_order_defined = false
       config.active_support.message_serializer = :json
-      # config.active_record.run_commit_callbacks_on_first_saved_instances_in_transaction = true
+      config.active_record.run_commit_callbacks_on_first_saved_instances_in_transaction = true
       # config.active_record.allow_deprecated_singular_associations_name = true
       # config.active_support.raise_on_invalid_cache_expiration_time = false
       # config.active_record.sqlite3_adapter_strict_strings_by_default = false
